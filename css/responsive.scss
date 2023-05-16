@@ -15,6 +15,9 @@
         background-color: blue;
       }
   }
+
+  // about 
+
 }
 @media only screen and (max-width:1024px){
   .navigation {
@@ -24,6 +27,7 @@
     padding-bottom: 4rem;
     transition: all 0.5s linear;
   }
+
 
   
 .navigation .navbar {
@@ -143,6 +147,23 @@
   justify-content: space-between;
   align-items: center;
   color: #fff;
+}
+
+// about
+.about {
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+}
+.about__content {
+  grid-template-columns: 1fr;
+  padding-top: 2rem;
+}
+.ourteam__content {
+  grid-template-columns: repeat(2,1fr);
+}
+.progress__content {
+  grid-template-columns: 100%;
 }
 
 }
@@ -274,7 +295,32 @@
     align-items: center;
     color: #fff;
   }
-  
+    // about 
+    .ourteam__content {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    .partner__content {
+      grid-template-columns: repeat(2,1fr);
+    }
+    .choose__content {
+      grid-template-columns: 1fr;
+    }
+    .mission__content {
+      grid-template-columns: 1fr;
+    }
+    .contact__about form {
+      width: 80%;
+
+    }
+    .contact__about form input {
+      width: 80%;
+    }
+    .contact__about form button {
+      width: 20%;
+
+    }
+    
 }
 
 
@@ -338,5 +384,19 @@ align-items: center;
 color: #fff;
 font-size: 1rem;
 }
+  // about 
+  .partner__content {
+    grid-template-columns: 1fr;
+  }
+  .contact__about form {
+    width: 90%;
 
+  }
+  .contact__about form input {
+    width: 70%;
+  }
+  .contact__about form button {
+    width: 30%;
+
+  }
 }

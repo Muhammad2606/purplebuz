@@ -589,6 +589,266 @@
   }
 
 
+        // about
+
+        .about{
+            width: 100%;
+            height: 100vh;
+            background-color: whitesmoke;
+         
+        }
+        .about__content{
+            @include grid (grid, repeat(2,1fr), 3rem);
+            align-items: center;
+            .about__item{
+                h2{
+                    border-bottom: 5px solid blue;
+                    display: inline-block;
+                    margin-bottom: 2rem;
+                    font-family: var(--real);
+                    font-size: 2rem;
+                }
+                p{
+                    font-family: var(--monster);
+                }
+            }
+        }
+        .our__team{
+            @include card(#fff);
+
+        }
+        .ourteam__content{
+            @include grid(grid, repeat(4,1fr), 3rem );
+            align-items: center;
+            .ourteam__item{
+                h2{
+                    font-size: 2rem;
+                    border-bottom: 5px solid blue;
+                    display: inline-block;
+                    margin-bottom: 1rem;
+                    font-family: var(--monster);
+                }
+                p{
+                    font-family: var(--ysa);
+                    font-size: 1rem;
+                }
+                .ourteam__img{
+                    border-radius: 100%;
+                    overflow: hidden;
+                    img{
+                        transform: scale(0.8);
+                        border-radius: 100%;
+                        transition: all 0.5s linear;
+                        &:hover{
+                        transform: scale(1);
+                        }
+                    }
+                }
+                .title{
+                    text-align: center;
+                    h2{
+                        display: block;
+                        border-bottom: 0;
+                        font-family: var(--monster);
+                    }
+                }
+            }
+        }
+
+        .partner{
+            @include card(#6266EA);
+            .title{
+                @include title();
+                color: white;
+                font-family: var(--monster);
+            }
+        }
+
+        .partner__content{
+            @include grid (grid, repeat(4,1fr), 3rem);
+            .partner__item{
+                background-color: #7276EC;
+                text-align: center;
+                transition: all 0.4s linear;
+                &:hover{
+                background-color: #a9acef;
+                }
+                .fa-solid{
+                    font-size: 5rem;
+                    color: white;
+                    padding: 4rem 1rem;
+                  
+                }
+            }
+        }
+
+        .progress{
+            @include card(#fff);
+
+        }
+        .progress__content{
+            @include grid(grid,40% 60%,3rem);
+            .progress__item{
+                h2{
+                    margin-bottom: 1rem;
+                    font-family: var(--monster);
+                    font-size: 2rem;
+                }
+                .progress__bar{
+                    h2{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 70%;
+                        span{
+                            font-size: 1.3rem;
+                        }
+                    }
+                    input{
+                        width: 100%;
+                        background-color: #4232C2;
+                        color: #4232C2;
+                    }
+                }
+            }
+        }
+
+            .choose{
+                @include card(#fff);
+                position: relative;
+            }
+            .choose__content{
+                @include grid(grid,repeat(2,1fr), 3rem);
+                align-items: flex-end;
+                &::after{
+                    height: 25%;
+                    position: absolute;
+                    content: '';
+                    left: 0;
+                    @include card(#EFEFFD);
+                    
+                }
+                .choose__item{
+                   z-index: 99;
+                   margin-bottom: 1rem;
+                }
+            }
+
+            .mission{
+                @include card (#fff);
+
+            }
+            .mission__content{
+                @include grid(grid,repeat(3,1fr),3rem);
+                .mission__item{
+                    text-align: center;
+                    .fa-ads{
+                        background-color: #6266EA;
+                        color: white;
+                        padding: 30px 40px;
+                        font-size: 4rem;
+                        border-radius: 20px;
+                        margin-bottom: 1rem;
+                    }
+                    h2{
+                        margin-bottom: 0.5rem;
+                        font-family: var(--contoro);
+                    }
+                    p{
+                        font-family: var(--ysa);
+                    }
+                }
+            }
+
+            .contact__about{
+                @include card (whitesmoke);
+                text-align: center;
+                .title{
+                    h2{
+                        font-family: var(--monster);
+                        font-size: 2rem;
+                        margin-bottom: 1rem;
+                    }
+                }
+                form{
+                    width: 60%;
+                    height: 7vh;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    display: flex;
+                    margin-bottom: 1rem;
+                
+                    input{
+                        width: 90%;
+                        height: 100%;
+                        border-radius: 20px 0 0 20px;
+                        text-indent: 10px;
+                        font-size: 1.5rem;
+                        border-right: 0;
+                        outline-color:   #4232C2;
+                    }
+                    button{
+                        width: 10%;
+                        border-radius: 20px;
+                        background-color: #4232C2;
+                        border-radius: 0 20px 20px 0;
+                        color: white;
+                        font-size: 1rem;
+
+                    }
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .hide{
     display: none;
   }

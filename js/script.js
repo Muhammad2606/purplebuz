@@ -77,5 +77,5 @@ const swiper = new Swiper('.swiper', {
               
                 }
               });
-              alert('xali sayt toliq tuggalanmagan');
+              // alert('xali sayt toliq tuggalanmagan');
 });
