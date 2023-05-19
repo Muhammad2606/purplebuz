@@ -17,13 +17,17 @@ const swiper = new Swiper('.swiper', {
 
   });
 
-  const loader = document.querySelector('.loader');
+  const loader = document.querySelectorAll('.loader');
   
   setTimeout(() => {
-    loader.style.opacity = 0.5;
+    loader.forEach(item =>{
+      item.style.opacity = 0.5;
+    });
   }, 2900);
   setTimeout(() => {
-    loader.style.display = 'none';
+    loader.forEach(item =>{
+      item.style.display = 'none';
+    });
   }, 3000);
 
 

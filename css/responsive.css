@@ -5,13 +5,13 @@
   .navigation .navbar .navbar__nav a {
     margin-left: 0px;
     margin-right: 0px;
-    padding: 10px 10px;
+    padding: 5px 15px;
     transition: all 0.5s linear;
   }
   .navigation .navbar .navbar__nav a:hover {
     background-color: white;
     color: white;
-    padding: 10px 100%;
+    padding: 5px 15px;
     border-radius: 30px;
     background-color: blue;
   }
@@ -109,6 +109,18 @@
   }
   .blog__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .blog__container .blog__container__item {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  .blog__container .blog__container__item:hover .blog__shadow {
+    transform: translateY(0vh);
+    bottom: 0;
+  }
+  .blog__container .blog__container__item:hover .blog__shadow__black {
+    transform: translateY(100vh);
   }
   .success .success__content {
     flex-direction: column;
@@ -246,6 +258,18 @@
   }
   .blog__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .blog__container .blog__container__item {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  .blog__container .blog__container__item:hover .blog__shadow {
+    transform: translateY(0vh);
+    bottom: 0;
+  }
+  .blog__container .blog__container__item:hover .blog__shadow__black {
+    transform: translateY(100vh);
   }
   .success .success__content {
     flex-direction: column;
