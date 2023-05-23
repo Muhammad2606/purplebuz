@@ -17,21 +17,16 @@ const swiper = new Swiper('.swiper', {
 
   });
 
-  const loader = document.querySelectorAll('.loader');
-  
+
+
+  const loader = document.querySelector(".loader");
+
   setTimeout(() => {
-    loader.forEach(item =>{
-      item.style.opacity = 0.5;
-    });
+    loader.style.opacity = 0.5;
   }, 2900);
   setTimeout(() => {
-    loader.forEach(item =>{
-      item.style.display = 'none';
-    });
+    loader.style.display = "none";
   }, 3000);
-
-
-
 
   // blog 
 
@@ -81,5 +76,9 @@ const swiper = new Swiper('.swiper', {
               
                 }
               });
-              alert('xali sayt toliq tuggalanmagan');
+             
+
+             
+
+
 });
