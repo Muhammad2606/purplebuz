@@ -1065,7 +1065,6 @@ img {
 }
 .comment__content .comment__item .user {
   display: flex;
-  align-items: center;
 }
 .comment__content .comment__item .user h2 span {
   font-size: 0.9rem;
@@ -1169,6 +1168,320 @@ img {
   display: flex;
   justify-content: space-between;
   margin-top: 0.5rem;
+}
+
+.price {
+  width: 100%;
+  padding: 4rem 0;
+  background-color: #fff;
+}
+.price .title {
+  font-family: var(--contoro);
+  letter-spacing: 2px;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.price .title p {
+  font-family: var(--ysa);
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.price__contact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.price__contact .price__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  border-radius: 20px;
+}
+.price__contact .price__item .fa-hand-holding-dollar {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #4232c2;
+}
+.price__contact .price__item span {
+  color: #000000;
+  font-size: 1.2rem;
+  color: black;
+}
+.price__contact .price__item ul {
+  color: #000000;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  font-family: var(--real);
+  list-style: circle;
+  color: black;
+}
+.price__contact .price__item button {
+  padding: 5px 15px;
+  font-size: 1.3rem;
+  border-radius: 30px;
+  transition: all 0.5s linear;
+}
+.price__contact .price__item button:hover {
+  background-color: #4232c2;
+  color: #fff;
+}
+.price__contact .price__item__blue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  background-color: #4232c2;
+}
+.price__contact .price__item__blue .fa-hand-holding-dollar {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  border-radius: 20px;
+}
+.price__contact .price__item__blue span {
+  font-size: 1.2rem;
+}
+.price__contact .price__item__blue ul {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  font-family: var(--real);
+}
+.price__contact .price__item__blue button {
+  padding: 5px 15px;
+  font-size: 1.3rem;
+  border-radius: 30px;
+  transition: all 0.5s linear;
+}
+.price__contact .price__item__blue button:hover {
+  background-color: #4232c2;
+  color: #fff;
+}
+
+.our__price {
+  width: 100%;
+  padding: 4rem 0;
+  background-color: rgb(204, 220, 220);
+}
+.our__price .title {
+  font-family: var(--contoro);
+  letter-spacing: 2px;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.our__price .title p {
+  font-size: 1.1rem;
+  font-family: var(--ysa);
+}
+
+.our__price__content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+.our__price__content .o_p__item {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.our__price__content .o_p__item .img {
+  height: 100%;
+  background-color: #4232c2;
+  width: 10%;
+  text-align: center;
+  padding: 5px 0;
+}
+.our__price__content .o_p__item .img .fa-hand-holding-dollar {
+  font-size: 3rem;
+  display: block;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.our__price__content .o_p__item .img span {
+  color: white;
+}
+.our__price__content .o_p__item ul {
+  margin-top: 0.5%;
+  font-size: 1.5rem;
+  font-family: var(--real);
+}
+.our__price__content .o_p__item .btn1 {
+  width: 10%;
+  text-align: center;
+}
+.our__price__content .o_p__item .btn1 span {
+  display: block;
+  font-size: 1.5rem;
+}
+.our__price__content .o_p__item .btn1 button {
+  padding: 5px 15px;
+  font-size: 1.3rem;
+  border-radius: 30px;
+  transition: all 0.5s linear;
+}
+.our__price__content .o_p__item .btn1 button:hover {
+  background-color: #4232c2;
+  color: #fff;
+}
+
+.price__footer {
+  width: 100%;
+  padding: 4rem 0;
+  background-color: whitesmoke;
+}
+
+.price__f__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  text-align: center;
+}
+.price__f__content .p_f__item .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 1%;
+  padding: 5px 15px;
+  background-color: #fff;
+}
+.price__f__content .p_f__item .item i {
+  font-size: 2rem;
+  color: #4232c2;
+}
+.price__f__content .p_f__item .item h2 p {
+  font-size: 1rem;
+  font-family: var(--ysa);
+}
+.price__f__content .p_f__item .item button {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  transition: all 0.5s linear;
+}
+.price__f__content .p_f__item .item button:hover {
+  background-color: #4232c2;
+  color: #fff;
+}
+.price__f__content button {
+  padding: 5px 15px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  transition: all 0.5s linear;
+  margin-top: 1rem;
+}
+.price__f__content button:hover {
+  background-color: #4232c2;
+  color: #fff;
+}
+
+.contact__card {
+  width: 100%;
+  padding: 4rem 0;
+  background-color: rgb(224, 236, 237);
+}
+
+.contact__card__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.contact__card__content .contact__card__item h2 {
+  color: #4232c2;
+  font-family: var(--monster);
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.contact__contact {
+  width: 100%;
+  padding: 4rem 0;
+  background-color: #fff;
+}
+.contact__contact .title h2 {
+  color: #4232c2;
+  font-family: var(--monster);
+  font-size: 2rem;
+}
+.contact__contact .title h3 {
+  font-size: 1.5rem;
+}
+.contact__contact .title p {
+  width: 75%;
+  font-family: var(--ysa);
+}
+
+.contact__contact__content {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+.contact__contact__content .contact__contact__item .media__contact {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.contact__contact__content .contact__contact__item .media__contact i {
+  font-size: 2rem;
+  border: 1px solid black;
+  padding: 15px 15px;
+  color: #4232c2;
+}
+.contact__contact__content .contact__contact__item form {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.contact__contact__content .contact__contact__item form .contact__row {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+.contact__contact__content .contact__contact__item form .contact__row input {
+  width: 100%;
+  height: 6vh;
+  margin-top: 1rem;
+  text-indent: 15px;
+  font-size: 1.3rem;
+}
+.contact__contact__content .contact__contact__item form .contact__row textarea {
+  width: 100%;
+  height: 15vh;
+  margin-top: 1rem;
+  text-indent: 15px;
+  font-size: 1.3rem;
+}
+.contact__contact__content .contact__contact__item form button {
+  transition: all 0.5s linear;
+  padding: 10px 20px;
+  border: 0;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.contact__contact__content .contact__contact__item form button:hover {
+  background-color: #4232c2;
+  color: #fff;
 }
 
 .swirl-in-left-fwd {

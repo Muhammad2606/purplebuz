@@ -374,7 +374,57 @@
   grid-template-columns: repeat(2,1fr);
   gap: 3rem;
 }
+// price 
+
+  .price__contact {
+  grid-template-columns: 1fr;
+  .price__item {
+    padding-bottom: 1rem;
+  }
+   .price__item__blue {
+    padding-bottom: 1rem;
+  }
 }
+.our__price__content .o_p__item {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .img {
+  height: 100%;
+  background-color: #4232c2;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+}
+ .btn1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+}
+.price__f__content {
+  grid-template-columns: 1fr;
+
+}
+
+  // contact
+
+      .contact__card__content {
+  grid-template-columns: 1fr;
+
+}
+.contact__contact .title p {
+  width: 100%;
+  font-family: var(--ysa);
+}
+.contact__contact__content {
+  grid-template-columns: 100%;
+
+}
+
+}
+
 
 // 468px
 
@@ -501,6 +551,23 @@
   grid-template-columns: 1fr;
   gap: 3rem;
 }
+// price 
+
+.price__f__content .p_f__item .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+// contact 
+
+.contact__contact__content .contact__contact__item form .contact__row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 }
 
 @media only screen and (max-width:320px){
@@ -539,3 +606,4 @@
 }
 
 }
+// Alhamdulillah 31.05.2023 18:07
